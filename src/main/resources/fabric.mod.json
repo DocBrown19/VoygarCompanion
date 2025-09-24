@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "voygar_companion",
+  "version": "0.1.0",
+  "name": "Voygar Companion",
+  "description": "Player2-style controllable AI bridge for 1.21.1",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.voygar.companion.VoygarCompanionMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric-api": ">=0.100.0"
+  }
+}
